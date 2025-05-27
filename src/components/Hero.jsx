@@ -10,7 +10,7 @@ const Hero = () => {
               Gowsalya Kumaravel
             </h1>
             <h2 className="text-xl md:text-2xl font-medium text-lightText mb-4">
-              Electrical & Electronics Engineer
+            Aspiring Electrical & Electronics Engineer
             </h2>
             <p className="text-base mb-6 text-darkText">
               Electrical engineering student at University of Jaffna, specializing in telecommunications. 
@@ -29,7 +29,7 @@ const Hero = () => {
           <div className="flex justify-center md:justify-end mt-4 md:mt-0">
             <div className="relative w-48 h-48 md:w-72 md:h-72 rounded-full overflow-hidden border-2 border-accent shadow-md">
               <img 
-                src="/images/profile.svg" 
+                src="/images/gows.jpg" 
                 alt="Gowsalya Kumaravel" 
                 className="w-full h-full object-cover"
               />
