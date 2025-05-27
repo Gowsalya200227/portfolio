@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <!-- Background Circle -->
+  <circle cx="250" cy="250" r="240" fill="#f8f9fa" stroke="#e5e7eb" stroke-width="2"/>
+  
+  <!-- Silhouette -->
+  <g transform="translate(100, 70)">
+    <!-- Head -->
+    <ellipse cx="150" cy="120" rx="90" ry="110" fill="#f5d0a9"/>
+    
+    <!-- Face -->
+    <circle cx="120" cy="100" r="10" fill="#333"/>
+    <circle cx="180" cy="100" r="10" fill="#333"/>
+    <path d="M130 150 Q150 170 170 150" stroke="#333" stroke-width="5" fill="none"/>
+    
+    <!-- Hair -->
+    <path d="M60 120 Q90 40 150 30 Q210 40 240 120 Q230 60 150 50 Q70 60 60 120" fill="#333"/>
+    
+    <!-- Shoulders/Upper Body -->
+    <path d="M70 230 Q150 200 230 230 L230 300 L70 300 Z" fill="#1e2c4f"/>
+    
+    <!-- Collar/Neckline -->
+    <path d="M120 230 L150 260 L180 230" stroke="#f8f9fa" stroke-width="4" fill="none"/>
+  </g>
+  
+  <!-- Name Text -->
+  <text x="250" y="420" font-family="Inter, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#1e2c4f">Gowsalya Kumaravel</text>
+</svg>
